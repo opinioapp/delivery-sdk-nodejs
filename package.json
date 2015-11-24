@@ -1,0 +1,27 @@
+{
+  "name": "opinio-delivery",
+  "version": "1.0.0",
+  "description": "pos delivery plugin",
+  "repository": "<TBD>",
+  "main": "opinio.js",
+  "keywords": [
+    "opinio",
+    "sdk"
+  ],
+  "author": "opinioapp.com",
+  "license": "private",
+  "dependencies": {
+    "crypto": "latest",
+    "request": "latest",
+    "urijs": "latest",
+    "joi": "6.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  }
+}
