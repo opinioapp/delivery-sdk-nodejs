@@ -3,7 +3,7 @@ var Joi = require('joi');
 module.exports = {
     authHeaderTemplate: 'Opinio @#SIGNATURE',
     bed: {
-        test: 'http://staging.deliver.opinioapp.com',
+        test: 'http://test.deliver.opinioapp.com',
         prod: 'http://deliver.opinioapp.com'
     },
     methods: {
